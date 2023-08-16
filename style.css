@@ -8,7 +8,7 @@ body {
 .navigation {
     list-style: none;
     margin: 0;
-    padding: 20;
+    padding: 0;
     position: absolute;
     top: 0;
     right: 0;
@@ -16,7 +16,7 @@ body {
 
 .navigation li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 20 30px;
 }
 
 .navigation a {
