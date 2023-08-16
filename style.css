@@ -26,7 +26,7 @@ body {
 .navigation a {
     text-decoration: none;
     color: black;
-    font-weight: normal;
+    font-weight: medium;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 
@@ -39,7 +39,7 @@ body {
     color: black;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+    font-weight: medium;
     padding: 20px;
     padding-left: 30px;
     
