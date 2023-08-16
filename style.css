@@ -3,4 +3,11 @@ body {
     background-size: cover; /* Adjusts the size of the background image */
     background-repeat: no-repeat; /* Prevents image from repeating */
 }
+/* styles.css */
+
+/* Style for the heading */
+.heading {
+    color: black;
+    /* You can add more styles here, like font-size, font-family, etc. */
+}
 
