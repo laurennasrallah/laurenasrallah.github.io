@@ -5,6 +5,26 @@ body {
 }
 /* styles.css */
 
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 /* Style for the heading */
 
 
