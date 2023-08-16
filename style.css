@@ -36,6 +36,8 @@ body {
 .heading {
     color: black;
     font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
     padding: 20px;
     padding-left: 30px;
     
