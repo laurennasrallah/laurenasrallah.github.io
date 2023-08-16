@@ -17,6 +17,8 @@ body {
 .navigation li {
     display: inline-block;
     margin: 0 10px;
+    padding: 20px;
+    padding-right: 30px;
 }
 
 .navigation a {
@@ -24,8 +26,7 @@ body {
     color: black;
     font-weight: bold;
     font-size: 30px;
-    padding: 20px;
-    padding-right: 30px;
+
 }
 
 /* Style for the heading */
