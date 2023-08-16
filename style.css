@@ -16,7 +16,7 @@ body {
 
 .navigation li {
     display: inline-block;
-    margin: 20 30px;
+    margin: 0 10px;
 }
 
 .navigation a {
