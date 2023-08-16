@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body {
     background-image: url('images/background.png'); /* Replace with the actual path to your image */
     background-size: cover; /* Adjusts the size of the background image */
@@ -26,7 +28,7 @@ body {
     color: black;
     font-weight: normal;
     font-size: 30px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -36,7 +38,7 @@ body {
 .heading {
     color: black;
     font-size: 30px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
     padding: 20px;
     padding-left: 30px;
