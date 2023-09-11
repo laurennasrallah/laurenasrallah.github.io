@@ -3,6 +3,8 @@
 body {
     background-image: url('images/background.png'); /* Replace with the actual path to your image */
     background-size: cover; /* Adjusts the size of the background image */
+    background-position: center center; /* Centers the image horizontally and vertically */
+    /* Additional styles for the container if needed */
     background-repeat: no-repeat; /* Prevents image from repeating */
 }
 /* styles.css */
