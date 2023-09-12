@@ -47,16 +47,7 @@ body {
   
 }
 
-.paragraph {
-    color: black;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    padding: 20px;
-    padding-left: 30px;
-    
-  
-}
+
 
 .image-container {
     float: left; /* Align to the left */
@@ -74,5 +65,23 @@ body {
 /* Style the right-aligned image container */
 .image-container.right {
     float: right; /* Align to the right */
+}
+
+.container {
+    width: 100%; /* Ensure the container takes up the full width of its parent */
+    overflow: hidden; /* Clear the float to contain the images and text */
+}
+
+.text-container {
+    width: 50%; /* Text container takes 50% of the container's width */
+    float: left; /* Make the text container float to the left */
+    padding: 20px; /* Add padding around the text */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.container::after {
+    content: ""; /* Create a clearfix element to clear the floats */
+    display: table;
+    clear: both;
 }
 
