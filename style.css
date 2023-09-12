@@ -91,7 +91,12 @@ body {
 
 .image-group .image-container {
     width: 50%; /* Each image container takes 33.33% of the image group's width */
-    padding: 10px; /* Add padding around the images in the group */
+    padding: 20px; /* Add padding around the images in the group */
     box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.image-group img {
+    width: 100%; /* Make the images within the group take up 100% of the container width */
+    height: auto; /* Maintain the image's aspect ratio */
 }
 
