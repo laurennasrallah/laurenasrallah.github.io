@@ -74,7 +74,7 @@ body {
 
 .text-container {
     width: 50%; /* Text container takes 50% of the container's width */
-    float: left; /* Make the text container float to the left */
+    float: right; /* Make the text container float to the left */
     padding: 20px; /* Add padding around the text */
     box-sizing: border-box; /* Include padding and border in the width calculation */
     height: auto;
