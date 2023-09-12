@@ -104,3 +104,8 @@ container img,
     display: block; /* Remove any extra spacing around inline elements */
 }
 
+.image-space {
+    margin-bottom: 40px;
+
+}
+
