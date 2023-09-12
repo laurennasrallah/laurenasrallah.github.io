@@ -84,4 +84,14 @@ body {
     display: table;
     clear: both;
 }
+.image-group {
+    width: 100%; /* Set the width of the image group container to 100% */
+    clear: both; /* Clear any floats before starting a new row */
+}
+
+.image-group .image-container {
+    width: 33.33%; /* Each image container takes 33.33% of the image group's width */
+    padding: 10px; /* Add padding around the images in the group */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
 
