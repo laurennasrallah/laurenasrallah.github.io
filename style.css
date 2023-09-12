@@ -2,7 +2,7 @@
 
 body {
     background-image: url('images/background.png'); /* Replace with the actual path to your image */
-    background-size: cover; /* Adjusts the size of the background image */
+    background-size: contain; /* Adjusts the size of the background image */
     background-repeat: no-repeat; /* Prevents image from repeating */
     background-attachment: scroll;
 }
