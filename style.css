@@ -90,7 +90,7 @@ body {
 }
 
 .image-group .image-container {
-    width: 33.33%; /* Each image container takes 33.33% of the image group's width */
+    width: 50%; /* Each image container takes 33.33% of the image group's width */
     padding: 10px; /* Add padding around the images in the group */
     box-sizing: border-box; /* Include padding and border in the width calculation */
 }
