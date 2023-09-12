@@ -96,8 +96,11 @@ body {
     box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
+container img,
 .image-group img {
-    width: 100%; /* Make the images within the group take up 100% of the container width */
+    width: 100%; /* Set a fixed width for all images */
     height: auto; /* Maintain the image's aspect ratio */
+    max-width: 100%; /* Ensure images don't exceed their natural size */
+    display: block; /* Remove any extra spacing around inline elements */
 }
 
