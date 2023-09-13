@@ -57,10 +57,10 @@ body {
     padding: 30px; /* Add padding around the image */
 }
 
-/*.image-container img {
+.image-container img {
     width: 100%; /* Make the image take up the full width of the container */
-  /*  height: auto; /* Maintain the image's aspect ratio */
-/*}
+    height: auto; /* Maintain the image's aspect ratio */
+}
 
 /* Style the right-aligned image container */
 .image-container.right {
