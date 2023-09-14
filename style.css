@@ -67,10 +67,10 @@ body {
     float: right; /* Align to the right */
 }
 
-.container {
+/*.container {
     width: 100%; /* Ensure the container takes up the full width of its parent */
-    overflow: hidden; /* Clear the float to contain the images and text */
-}
+   /* overflow: hidden; /* Clear the float to contain the images and text */
+/*}*/
 
 .text-container {
     width: 50%; /* Text container takes 50% of the container's width */
@@ -80,29 +80,29 @@ body {
     height: auto;
 }
 
-.container::after {
+/*.container::after {
     content: ""; /* Create a clearfix element to clear the floats */
-    display: table;
+   /* display: table;
     clear: both;
 }
 .image-group {
     width: 100%; /* Set the width of the image group container to 100% */
-    clear: both; /* Clear any floats before starting a new row */
-}
+   /* clear: both; /* Clear any floats before starting a new row */
+/*}*/
 
-.image-group .image-container {
+/*.image-group .image-container {
     width: 50%; /* Each image container takes 33.33% of the image group's width */
-    padding: 20px; /* Add padding around the images in the group */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-}
+  /*  padding: 20px; /* Add padding around the images in the group */
+   /* box-sizing: border-box; /* Include padding and border in the width calculation */
+/*}
 
 .container img,
 .image-group img {
     width: 100%; /* Set a fixed width for all images */
-    height: auto; /* Maintain the image's aspect ratio */
-    max-width: 100%; /* Ensure images don't exceed their natural size */
-    display: block; /* Remove any extra spacing around inline elements */
-}
+  /*  height: auto; /* Maintain the image's aspect ratio */
+  /*  max-width: 100%; /* Ensure images don't exceed their natural size */
+  /*  display: block; /* Remove any extra spacing around inline elements */
+/*}*/
 
 .image-space {
     margin-bottom: 200px;
