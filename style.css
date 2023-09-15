@@ -118,3 +118,16 @@ body {
     
 }
 
+/* Remove the default underline and change the link color */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Change link color to black */
+}
+
+/* Remove the default underline and change the link color for links with the "custom-link" class */
+.custom-link {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Change link color to black */
+}
+
+
