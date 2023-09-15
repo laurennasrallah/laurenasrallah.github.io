@@ -109,3 +109,12 @@ body {
 
 }
 
+.bottom-heading {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    padding: 20px;
+    
+}
+
