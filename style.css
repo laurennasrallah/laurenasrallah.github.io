@@ -61,6 +61,10 @@ body {
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
     box-sizing: border-box; /* Include padding and border in the width calculation */
     padding: 30px; /* Add padding around the image */
+    position: relative;
+    text-align: center;
+    color: black;
+    
 }
 
 .image-container img {
@@ -80,12 +84,13 @@ body {
     overflow: hidden; /* Clear the float to contain the images and text */
 }
 
-.text-container {
-    width: 50%; /* Text container takes 50% of the container's width */
-    float: right; /* Make the text container float to the left */
-    padding: 20px; /* Add padding around the text */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-    height: auto;
+.text-overlay {
+    position: absolute; /* Position text relative to the image container */
+    top: 50%; /* Position text vertically in the middle */
+    left: 50%; /* Position text horizontally in the middle */
+    color: black; /* Text color */
+    padding: 10px; /* Padding around the text */
+    font-size: 18px; /* Font size *
 }
 
 /*.container::after {
