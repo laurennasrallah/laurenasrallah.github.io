@@ -67,10 +67,10 @@ body {
     float: right; /* Align to the right */
 }
 
-/*.container {
+.container {
     width: 100%; /* Ensure the container takes up the full width of its parent */
-   /* overflow: hidden; /* Clear the float to contain the images and text */
-/*}*/
+    overflow: hidden; /* Clear the float to contain the images and text */
+}
 
 .text-container {
     width: 50%; /* Text container takes 50% of the container's width */
