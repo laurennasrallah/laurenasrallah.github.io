@@ -134,4 +134,11 @@ body {
     color: #000; /* Change link color to black */
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take the full viewport height */
+}
+
 
