@@ -139,7 +139,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Make the container take the full viewport height */
-    padding: 100px;
+    padding: 50px;
 }
+
+.image-space-top {
+    padding-top: 100px;
+
+{
 
 
