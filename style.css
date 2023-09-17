@@ -66,6 +66,8 @@ body {
 .image-container img {
     width: 100%; /* Make the image take up the full width of the container */
     height: auto; /* Maintain the image's aspect ratio */
+    text-align: center;
+    color: black;
 }
 
 /* Style the right-aligned image container */
