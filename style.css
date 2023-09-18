@@ -62,15 +62,15 @@ body {
     box-sizing: border-box; /* Include padding and border in the width calculation */
     padding: 30px; /* Add padding around the image */
     position: relative; /* To make positioning of child elements relative to this container */
-    display: inline-block; /* Allows the container to take the size of its content */
+    
     
 }
 
 .image-container img {
     width: 100%; /* Make the image take up the full width of the container */
     height: auto; /* Maintain the image's aspect ratio */
-    text-align: center;
-    color: black;
+   
+    
 }
 
 /* Style the right-aligned image container */
