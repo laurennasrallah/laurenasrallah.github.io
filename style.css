@@ -61,7 +61,8 @@ body {
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
     box-sizing: border-box; /* Include padding and border in the width calculation */
     padding: 30px; /* Add padding around the image */
-   
+    position: relative; /* To make positioning of child elements relative to this container */
+    display: inline-block; /* Allows the container to take the size of its content */
     
 }
 
