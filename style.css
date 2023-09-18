@@ -63,6 +63,7 @@ body {
 
 
 .image-container {
+    display: inline-block;
     float: left; /* Align to the left */
     width: 50%; /* Make it half the width of the browser window */
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
