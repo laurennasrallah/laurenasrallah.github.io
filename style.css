@@ -85,8 +85,8 @@ body {
 
 .text-overlay {
     position: absolute; /* Position text relative to the image container */
-    top: 50%; /* Position text vertically in the middle */
-    left: 0; /* Position text horizontally in the middle */
+    top: 8px; /* Position text vertically in the middle */
+    left: 16px; /* Position text horizontally in the middle */
     transform: translateY(-50%); /* Center text vertically */
     color: black; /* Text color */
     padding: 10px; /* Padding around the text */
@@ -127,6 +127,7 @@ body {
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -151,6 +152,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
     height: 100vh; /* Make the container take the full viewport height */
     padding: 50px;
 }
