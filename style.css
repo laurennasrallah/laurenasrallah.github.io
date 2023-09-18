@@ -125,7 +125,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+   /* position: fixed;*/
     height: 100vh; /* Make the container take the full viewport height */
     padding: 50px;
 }
