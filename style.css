@@ -61,7 +61,7 @@ body {
     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
     box-sizing: border-box; /* Include padding and border in the width calculation */
     padding: 30px; /* Add padding around the image */
-    position: relative; /* To make positioning of child elements relative to this container */
+  /*  position: relative; /* To make positioning of child elements relative to this container */
     
     
 }
@@ -83,15 +83,15 @@ body {
     overflow: hidden; /* Clear the float to contain the images and text */
 }
 
-.text-overlay {
+/*.text-overlay {
     position: absolute; /* Position text relative to the image container */
-    top: 0; /* Position text vertically in the middle */
-    left: 0; /* Position text horizontally in the middle */
-    transform: translateY(-50%); /* Center text vertically */
-    color: black; /* Text color */
-    padding: 10px; /* Padding around the text */
-    font-size: 18px; /* Font size */
-}
+  /*  top: 0; /* Position text vertically in the middle */
+   /* left: 0; /* Position text horizontally in the middle */
+/*    transform: translateY(-50%); /* Center text vertically */
+   /* color: black; /* Text color */
+   /* padding: 10px; /* Padding around the text */
+   /* font-size: 18px; /* Font size */
+/*}*/
 
 
 .image-space {
@@ -104,7 +104,7 @@ body {
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    position: fixed;
+   /* position: fixed;*/
     bottom: 0;
     left: 0;
     right: 0;
